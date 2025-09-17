@@ -1,1 +1,68 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f8f8;
+  padding: 50px 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fixed {
+  /* EXPLORE BOOKS */
+  position: absolute;
+  width: 144px;
+  height: 27px;
+  left: 1400px;
+  top: calc(50% - 13.5px - 58.5px);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 27px;
+  /* identical to box height, or 225% */
+  letter-spacing: 0.3em;
+  color: #000000;
+  transform: rotate(-90deg);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  padding: 24px 13px 0 40px;
+}
+.wrapper header h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.wrapper .book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 113px;
+}
+.wrapper .book .col1 {
+  width: 30%;
+}
+.wrapper .book .col2 {
+  width: 45%;
+}
+.wrapper .book .col3 {
+  width: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .book .col3 img {
+  width: 137px;
+}/*# sourceMappingURL=style.css.map */
