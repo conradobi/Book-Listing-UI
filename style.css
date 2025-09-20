@@ -14,6 +14,7 @@ body {
 }
 
 .wrapper {
+  position: relative;
   max-width: 1440px;
   margin: 0 auto;
   background: #ffffff;
@@ -121,17 +122,16 @@ body {
 }
 
 .fixed {
-  /* EXPLORE BOOKS */
   position: absolute;
+  top: 50%;
+  right: -60px;
+  transform: translateY(-50%) rotate(-90deg);
   width: 144px;
   height: 27px;
-  left: 1400px;
-  top: calc(50% - 13.5px - 58.5px);
   font-weight: 700;
   font-size: 12px;
   line-height: 27px;
-  /* identical to box height, or 225% */
   letter-spacing: 0.3em;
   color: #000000;
-  transform: rotate(-90deg);
+  z-index: 10;
 }/*# sourceMappingURL=style.css.map */
